@@ -150,7 +150,7 @@ def footer(lang, page_key):
     return f"""<footer class="site-footer">
   <div class="container footer-grid">
     <div>
-      <div class="footer-brand"><img src="{r}assets/confialy-mark.png" alt=""><span>Confialy</span></div>
+      <div class="footer-brand"><img src="{r}assets/confialy-mark-light.png" alt=""><span>Confialy</span></div>
       <p>{T(lang,'footer_tagline')}</p>
     </div>
     {company_links}
@@ -252,7 +252,7 @@ def build_home(lang):
         <svg viewBox="0 0 480 420" class="hero__wave" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Confialy">
           <circle cx="240" cy="200" r="168" fill="#DCE9E1"/>
           <circle cx="240" cy="200" r="120" fill="#FBF6EC"/>
-          <g transform="translate(196,150) scale(1.9)" fill="none" stroke="#2F4A42" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">{icon('shield-heart')}</g>
+          <g transform="translate(196,150) scale(1.9)" fill="none" stroke="#405B55" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">{icon('shield-heart')}</g>
           <g transform="translate(70,60) scale(1.3)" fill="none" stroke="#E3A63C" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">{icon('home')}</g>
           <g transform="translate(340,50) scale(1.3)" fill="none" stroke="#6C8B7D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">{icon('car')}</g>
           <g transform="translate(60,300) scale(1.3)" fill="none" stroke="#6C8B7D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">{icon('heart-pulse')}</g>
