@@ -50,12 +50,24 @@ def hero_scene_svg(icon_key):
   {nested}
 </svg>"""
 
-# Pilot: real photography on a few product pages instead of the line-icon scene.
+# Real photography on every product page instead of the line-icon scene.
 # Slug -> (filename in assets/photos/, {"en": alt text, "es": alt text})
 PRODUCT_PHOTOS = {
-    "salud": ("salud-hero.jpg", {"en": "Smiling older woman, healthy and happy outdoors", "es": "Mujer mayor sonriendo, sana y feliz al aire libre"}),
+    "salud": ("salud-hero.jpg", {"en": "Father laughing with his baby daughter outdoors", "es": "Padre riendo con su hija bebé al aire libre"}),
+    "dental": ("dental-hero.jpg", {"en": "Close-up of a healthy, confident smile", "es": "Primer plano de una sonrisa sana y segura"}),
     "hogar": ("hogar-hero.jpg", {"en": "Couple carrying boxes and a plant into their new home", "es": "Pareja entrando a su nueva casa con cajas y una planta"}),
+    "coche": ("coche-hero.jpg", {"en": "Woman smiling inside her car", "es": "Mujer sonriendo dentro de su coche"}),
+    "motor": ("motor-hero.jpg", {"en": "Two women riding a scooter through a city street", "es": "Dos mujeres montando en scooter por una calle de la ciudad"}),
+    "negocio": ("negocio-hero.jpg", {"en": "Confident small business owner standing in her shop", "es": "Dueña de un pequeño negocio, segura de sí misma en su local"}),
+    "vida": ("vida-hero.jpg", {"en": "A multi-generational family walking together in a park", "es": "Una familia multigeneracional paseando junta por un parque"}),
+    "accidente": ("accidente-hero.jpg", {"en": "Man smiling outdoors while hiking in the mountains", "es": "Hombre sonriendo al aire libre mientras hace senderismo en la montaña"}),
     "mascota": ("mascota-hero.jpg", {"en": "Woman hugging her golden retriever outdoors", "es": "Mujer abrazando a su golden retriever al aire libre"}),
+    "responsabilidad-civil": ("responsabilidad-civil-hero.jpg", {"en": "Friends laughing together over dinner at home", "es": "Amigos riendo juntos durante una cena en casa"}),
+    "responsabilidad-profesional": ("responsabilidad-profesional-hero.jpg", {"en": "Two professionals shaking hands over a business agreement", "es": "Dos profesionales dándose la mano tras un acuerdo"}),
+    "seguro-de-comunidad": ("seguro-de-comunidad-hero.jpg", {"en": "A modern residential apartment building with balconies", "es": "Un edificio residencial moderno con balcones"}),
+    "defensa-juridica": ("defensa-juridica-hero.jpg", {"en": "Two people reviewing documents together, smiling", "es": "Dos personas revisando documentos juntas, sonriendo"}),
+    "ciberriesgos": ("ciberriesgos-hero.jpg", {"en": "Woman working on her laptop at an outdoor cafe", "es": "Mujer trabajando con su portátil en una cafetería al aire libre"}),
+    "seguro-de-transporte": ("seguro-de-transporte-hero.jpg", {"en": "Smiling delivery driver standing by his van full of packages", "es": "Repartidor sonriente junto a su furgoneta llena de paquetes"}),
 }
 
 def hero_scene(lang, slug, r):
