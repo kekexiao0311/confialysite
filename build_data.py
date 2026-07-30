@@ -204,11 +204,11 @@ PRODUCTS = {
     "salud": {
         "icon": "heart-pulse",
         "en": {
-            "name": "Salud", "display": "Health Insurance",
+            "name": "Health", "display": "Health Insurance",
             "card_teaser": "Ask us for real health plan quotes \u2014 no guesswork on what's actually covered.",
             "meta_title": "Health Insurance in Spain | Compare Real Quotes \u2014 Confialy",
             "meta_desc": "Tired of overpaying or not knowing what your health plan actually covers? Compare real quotes from Spain's top insurers in one place \u2014 independent, no pressure.",
-            "eyebrow": "Salud", "cta": "Request my quote",
+            "eyebrow": "Health", "cta": "Request my quote",
             "h1": "Stop Guessing What Your Health Insurance Actually Covers",
             "sub": "Confusing policies, upsells, and renewal notices that just say \u201cyour premium is going up\u201d \u2014 sound familiar? Ask us for real health insurance quotes, from a broker that isn't trying to sell you its own plan.",
             "best_fit": "Health cover in Spain ranges from cheap outpatient-only plans to full private hospitalization with no waiting lists, and the right choice depends on whether you already have Seguridad Social, how often you see specialists, and whether speed and choice of doctor matter to you. Confialy fits if you want those trade-offs explained in plain language before you commit \u2014 not sold a single insurer's plan.",
@@ -366,11 +366,11 @@ PRODUCTS = {
     "hogar": {
         "icon": "home",
         "en": {
-            "name": "Hogar", "display": "Home Insurance",
+            "name": "Home", "display": "Home Insurance",
             "card_teaser": "For renters and owners alike \u2014 cover that actually matches your situation.",
             "meta_title": "Home Insurance in Spain | Compare Quotes for Renters & Owners \u2014 Confialy",
             "meta_desc": "Renting or buying in Spain? Compare home insurance quotes that actually match your situation \u2014 clear coverage, no landlord surprises.",
-            "eyebrow": "Hogar", "cta": "Request home insurance quotes",
+            "eyebrow": "Home", "cta": "Request home insurance quotes",
             "h1": "Home Insurance That Actually Matches Whether You Rent or Own",
             "sub": "A generic quote isn't the same as one built around your lease, your mortgage, or your first Spanish apartment. Ask us for real quotes that fit your actual situation.",
             "best_fit": "If you rent, you mainly need contents and liability cover \u2014 the building itself is the landlord's policy, not yours. If you own, especially with a mortgage, building cover is usually required by the lender on top of contents. Confialy is useful here because renter and owner risk are genuinely different, and a generic quote often prices or covers the wrong one.",
@@ -448,11 +448,11 @@ PRODUCTS = {
     "coche": {
         "icon": "car",
         "en": {
-            "name": "Coche", "display": "Car Insurance",
+            "name": "Car", "display": "Car Insurance",
             "card_teaser": "Legally required in Spain \u2014 ask us for a real quote instead of accepting the first one.",
             "meta_title": "Car Insurance in Spain | Compare Quotes, Drive Legally \u2014 Confialy",
             "meta_desc": "Car insurance is required by law in Spain. Compare real quotes from top insurers and get covered without calling five companies yourself.",
-            "eyebrow": "Coche", "cta": "Request car insurance quotes",
+            "eyebrow": "Car", "cta": "Request car insurance quotes",
             "h1": "Legally Covered Doesn't Have to Mean Overpaying",
             "sub": "Car insurance is required by law in Spain \u2014 but that doesn't mean you should accept the first quote you find. Ask us for real offers and drive covered, for less.",
             "best_fit": "Third-party (terceros) is the legal minimum and fits an older, lower-value car you could afford to replace yourself. Comprehensive (todo riesgo) fits a newer or financed car, or a driver who wants their own vehicle's damage covered too, not just the other party's. The right tier depends on your car's value and how much risk you're comfortable carrying yourself.",
@@ -530,11 +530,11 @@ PRODUCTS = {
     "motor": {
         "icon": "motorcycle",
         "en": {
-            "name": "Motor", "display": "Motorcycle Insurance",
+            "name": "Motorcycle", "display": "Motorcycle Insurance",
             "card_teaser": "From city scooters to touring bikes \u2014 cover priced for how you actually ride.",
             "meta_title": "Motorcycle Insurance in Spain | Compare Cover for Every Ride \u2014 Confialy",
             "meta_desc": "From city scooters to weekend rides, compare real motorcycle insurance quotes in Spain and find cover built for how you actually ride.",
-            "eyebrow": "Motor", "cta": "Request motorcycle insurance quotes",
+            "eyebrow": "Motorcycle", "cta": "Request motorcycle insurance quotes",
             "h1": "Insurance That Matches How You Actually Ride",
             "sub": "A daily scooter commute and a weekend touring bike don't carry the same risk \u2014 your insurance shouldn't be priced like they do. Ask us for quotes built around your actual riding.",
             "best_fit": "A low-cc scooter used for short city commutes usually only needs the legal minimum, since the vehicle's own value is low. A larger touring or sport bike carries more value and often more risk exposure, so own-damage and gear cover start to make financial sense. The fit depends on engine size, how often you ride, and what the bike would cost to replace.",
@@ -610,11 +610,11 @@ PRODUCTS = {
     "negocio": {
         "icon": "briefcase",
         "en": {
-            "name": "Negocio", "display": "Business Insurance",
+            "name": "Business", "display": "Business Insurance",
             "card_teaser": "Cover sized for freelancers, aut\u00f3nomos and small teams \u2014 not corporations.",
             "meta_title": "Business Insurance in Spain | Compare Cover for Aut\u00f3nomos & Small Business \u2014 Confialy",
             "meta_desc": "Freelancer, aut\u00f3nomo, or small business owner in Spain? Compare real business insurance quotes built for your actual risk, not a generic package.",
-            "eyebrow": "Negocio", "cta": "Request business insurance quotes",
+            "eyebrow": "Business", "cta": "Request business insurance quotes",
             "h1": "Business Insurance That Fits a Small Business, Not a Corporation",
             "sub": "Most business insurance is written for companies ten times your size. Ask us for real quotes sized for freelancers, aut\u00f3nomos, and small teams in Spain.",
             "best_fit": "This fits a business with a physical presence \u2014 a shop, studio, workshop, or office \u2014 that needs property and liability cover, or one whose clients/contracts explicitly ask for proof of insurance. If you're a fully remote freelancer with no physical premises and no client insurance requirement, professional liability alone (see our Responsabilidad Profesional page) may cover the actual risk better.",
@@ -690,11 +690,11 @@ PRODUCTS = {
     "mascota": {
         "icon": "paw",
         "en": {
-            "name": "Mascota", "display": "Pet Insurance",
+            "name": "Pet", "display": "Pet Insurance",
             "card_teaser": "Know what a real vet emergency would cost \u2014 before it happens.",
             "meta_title": "Pet Insurance in Spain | Compare Vet Cost Cover \u2014 Confialy",
             "meta_desc": "Vet bills add up fast. Compare real pet insurance quotes in Spain and know what a real emergency would actually cost you.",
-            "eyebrow": "Mascota", "cta": "Request pet insurance quotes",
+            "eyebrow": "Pet", "cta": "Request pet insurance quotes",
             "h1": "One Bad Vet Bill Shouldn't Be a Financial Emergency",
             "sub": "Emergency surgery can cost more than people expect. Ask us for real pet insurance quotes and know exactly what you'd be covered for before you need it.",
             "best_fit": "Pet insurance makes the most financial sense for younger, healthy pets, since pre-existing conditions are typically excluded once you already know about them. If your pet is older or has a known condition, cover may be limited or pricier \u2014 worth asking about explicitly rather than assuming it's excluded outright. It also matters more if your pet is a breed with legally required liability cover (see below).",
@@ -770,11 +770,11 @@ PRODUCTS = {
     "vida": {
         "icon": "shield-heart",
         "en": {
-            "name": "Vida", "display": "Life Insurance",
+            "name": "Life", "display": "Life Insurance",
             "card_teaser": "A clear answer, not a sales pitch \u2014 for the people who depend on you.",
             "meta_title": "Life Insurance in Spain | Compare Plans, Protect Your Family \u2014 Confialy",
             "meta_desc": "An important decision deserves clear answers, not sales pressure. Compare real life insurance quotes in Spain, explained in plain language.",
-            "eyebrow": "Vida", "cta": "Request life insurance quotes",
+            "eyebrow": "Life", "cta": "Request life insurance quotes",
             "h1": "An Important Decision Deserves a Clear Answer, Not a Sales Pitch",
             "sub": "Life insurance conversations are often rushed by commission-driven agents. We ask insurers for real quotes and explain them plainly \u2014 no pressure, no jargon, your timeline.",
             "best_fit": "This matters most if someone depends on your income \u2014 a partner, children, or a joint mortgage \u2014 since the payout is designed to replace what you'd have provided. It matters less if you have no dependents and no shared debt, in which case a smaller policy (or none at all) may be the honest answer, and we'll tell you that rather than upsell you.",
@@ -848,11 +848,11 @@ PRODUCTS = {
     "accidente": {
         "icon": "bandage",
         "en": {
-            "name": "Accidente", "display": "Accident Insurance",
+            "name": "Accident", "display": "Accident Insurance",
             "card_teaser": "Health insurance covers treatment. This covers what happens to your income.",
             "meta_title": "Accident Insurance in Spain | Income Protection Beyond Health Cover \u2014 Confialy",
             "meta_desc": "Health insurance covers treatment. It doesn't cover lost income. Compare real accident insurance quotes that protect both.",
-            "eyebrow": "Accidente", "cta": "Request accident insurance quotes",
+            "eyebrow": "Accident", "cta": "Request accident insurance quotes",
             "h1": "Health Insurance Covers Treatment. It Doesn't Cover Your Rent.",
             "sub": "An accident can stop you from working long before it stops affecting your bank balance. Ask us for accident insurance that protects your income, not just your recovery.",
             "best_fit": "This fits best if no employer sick-pay safety net exists for you \u2014 aut\u00f3nomos and freelancers especially \u2014 or if you have a physically demanding job or active hobby where an injury could stop you working for weeks or months. If you're a salaried employee with strong employer sick-pay cover already, the gap this fills may be smaller.",
@@ -928,11 +928,11 @@ PRODUCTS = {
     "responsabilidad-civil": {
         "icon": "scale",
         "en": {
-            "name": "Responsabilidad Civil", "display": "Civil Liability Insurance",
+            "name": "Civil Liability", "display": "Civil Liability Insurance",
             "card_teaser": "For the accidental moments home and car policies often only partly cover.",
             "meta_title": "Civil Liability Insurance in Spain | Compare Plans \u2014 Confialy",
             "meta_desc": "One accidental mistake shouldn't become a legal or financial mess. Compare real civil liability insurance quotes in Spain, explained simply.",
-            "eyebrow": "Responsabilidad Civil", "cta": "Request civil liability quotes",
+            "eyebrow": "Civil Liability", "cta": "Request civil liability quotes",
             "h1": "One Accident Shouldn't Become a Legal Mess",
             "sub": "Spill wine on a neighbor's carpet, or accidentally injure someone in a shared space \u2014 civil liability insurance covers what home and car policies often only partially do. Ask us for real cover.",
             "best_fit": "Civil liability insurance protects you when you accidentally cause harm to someone else or their property \u2014 it's not about your own losses. It's most useful as a standalone policy if your home or car cover only includes a small baseline amount, or if you want protection for everyday situations away from home (at a friend's house, in public) that a home policy typically doesn't reach.",
@@ -1010,11 +1010,11 @@ PRODUCTS = {
     "responsabilidad-profesional": {
         "icon": "badge-check",
         "en": {
-            "name": "Responsabilidad Profesional", "display": "Professional Liability Insurance",
+            "name": "Professional Liability", "display": "Professional Liability Insurance",
             "card_teaser": "For consultants and small firms \u2014 cover matched to your actual profession.",
             "meta_title": "Professional Liability Insurance in Spain | Compare Quotes \u2014 Confialy",
             "meta_desc": "One client dispute shouldn't threaten your business. Compare real professional liability insurance quotes in Spain, built for your profession.",
-            "eyebrow": "Responsabilidad Profesional", "cta": "Request professional liability quotes",
+            "eyebrow": "Professional Liability", "cta": "Request professional liability quotes",
             "h1": "One Client Dispute Shouldn't Threaten Everything You've Built",
             "sub": "A single error, a misunderstanding, or an unhappy client can cost far more than a policy would. Ask us for professional liability cover built for what you actually do.",
             "best_fit": "This fits anyone whose work is advice, a service, or a deliverable a client relies on \u2014 consultants, designers, developers, translators, coaches. It's especially relevant if a client or contract explicitly requires proof of cover before work starts, which is increasingly common even for smaller freelance contracts.",
@@ -1090,11 +1090,11 @@ PRODUCTS = {
     "seguro-de-comunidad": {
         "icon": "building",
         "en": {
-            "name": "Seguro de Comunidad", "display": "Community / Homeowners' Association Insurance",
+            "name": "Community", "display": "Community / Homeowners' Association Insurance",
             "card_teaser": "Cover for the shared parts of a building \u2014 stairwells, roofs, elevators.",
             "meta_title": "Community Insurance Spain | Homeowners' Association Cover \u2014 Confialy",
             "meta_desc": "Shared buildings carry shared risk. Compare real community insurance quotes for your comunidad de propietarios, explained clearly.",
-            "eyebrow": "Seguro de Comunidad", "cta": "Request community insurance quotes",
+            "eyebrow": "Community", "cta": "Request community insurance quotes",
             "h1": "Shared Buildings Carry Shared Risk \u2014 Make Sure Everyone's Covered",
             "sub": "One burst pipe in a stairwell can become an expensive dispute between neighbors. Ask us for community insurance that protects the building everyone relies on.",
             "faq_first_explains": True,
@@ -1172,11 +1172,11 @@ PRODUCTS = {
     "defensa-juridica": {
         "icon": "gavel",
         "en": {
-            "name": "Defensa Jur\u00eddica", "display": "Legal Defense Insurance",
+            "name": "Legal Defense", "display": "Legal Defense Insurance",
             "card_teaser": "Legal advice and representation costs covered \u2014 before a dispute finds you.",
             "meta_title": "Legal Defense Insurance in Spain | Compare Legal Cost Cover \u2014 Confialy",
             "meta_desc": "Legal disputes are stressful and expensive before you've even won. Compare real legal defense insurance quotes in Spain, explained simply.",
-            "eyebrow": "Defensa Jur\u00eddica", "cta": "Request legal defense quotes",
+            "eyebrow": "Legal Defense", "cta": "Request legal defense quotes",
             "h1": "Legal Disputes Are Expensive \u2014 Even Before You've Won",
             "sub": "A landlord dispute, a workplace disagreement, a consumer complaint gone wrong \u2014 legal costs add up fast. Ask us for legal defense insurance that covers advice and representation when you need it most.",
             "faq_first_explains": True,
@@ -1254,11 +1254,11 @@ PRODUCTS = {
     "ciberriesgos": {
         "icon": "shield-lock",
         "en": {
-            "name": "Ciberriesgos", "display": "Cyber Risk Insurance",
+            "name": "Cyber Risk", "display": "Cyber Risk Insurance",
             "card_teaser": "Real digital risks \u2014 data breaches, ransomware, AI liability \u2014 no hype.",
             "meta_title": "Cyber Insurance in Spain | Compare Cover for Real Digital Risk \u2014 Confialy",
             "meta_desc": "Data breaches and ransomware are real risks for small businesses too. Compare real cyber insurance quotes in Spain, explained without the hype.",
-            "eyebrow": "Ciberriesgos", "cta": "Request cyber insurance quotes",
+            "eyebrow": "Cyber Risk", "cta": "Request cyber insurance quotes",
             "h1": "Small Businesses Are a Bigger Cyber Target Than You'd Think",
             "sub": "Attackers often go after smaller businesses precisely because they have fewer defenses. Ask us for real cyber insurance quotes and close a gap most small businesses haven't thought about yet.",
             "best_fit": "This fits any freelancer or small business that handles client data, takes online payments, or relies on cloud tools and email to operate \u2014 which today is nearly everyone. It's especially relevant if your business uses AI tools that process client data, since liability in that area is still evolving and not every general liability policy addresses it.",
@@ -1334,11 +1334,11 @@ PRODUCTS = {
     "seguro-de-transporte": {
         "icon": "truck",
         "en": {
-            "name": "Seguro de Transporte", "display": "Transport Insurance",
+            "name": "Transport", "display": "Transport Insurance",
             "card_teaser": "Protect goods in transit \u2014 separate from insuring the vehicle itself.",
             "meta_title": "Transport Insurance in Spain | Compare Cover for Goods in Transit \u2014 Confialy",
             "meta_desc": "Shipping products or moving goods for your business? Compare real transport insurance quotes in Spain and protect what's in transit, not just your vehicle.",
-            "eyebrow": "Seguro de Transporte", "cta": "Request transport insurance quotes",
+            "eyebrow": "Transport", "cta": "Request transport insurance quotes",
             "h1": "Your Vehicle Insurance Doesn't Cover What's Inside It",
             "sub": "If your business ships or transports goods, a separate policy protects the goods themselves \u2014 not just the vehicle carrying them. Ask us for real cover for what's actually at risk.",
             "scope_flag": "Scope still to be confirmed with the product lead: this page currently assumes goods-in-transit / business shipping, since personal vehicles are already covered by our Coche and Motor pages. If the intended scope is passenger, fleet, or logistics-company insurance instead, this page's hero, personas and FAQ need to change substantially.",

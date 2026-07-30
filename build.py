@@ -182,6 +182,7 @@ def footer(lang, page_key):
     <div>
       <div class="footer-brand"><img src="{r}assets/confialy-mark-light.png" alt=""><span>Confialy</span></div>
       <p>{T(lang,'footer_tagline')}</p>
+      <p class="footer-email"><a href="mailto:contact@confialy.com">contact@confialy.com</a></p>
     </div>
     {company_links}
     {cat_links}
