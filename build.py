@@ -50,6 +50,24 @@ def hero_scene_svg(icon_key):
   {nested}
 </svg>"""
 
+# Pilot: real photography on a few product pages instead of the line-icon scene.
+# Slug -> (filename in assets/photos/, {"en": alt text, "es": alt text})
+PRODUCT_PHOTOS = {
+    "salud": ("salud-hero.jpg", {"en": "Smiling older woman, healthy and happy outdoors", "es": "Mujer mayor sonriendo, sana y feliz al aire libre"}),
+    "hogar": ("hogar-hero.jpg", {"en": "Couple carrying boxes and a plant into their new home", "es": "Pareja entrando a su nueva casa con cajas y una planta"}),
+    "mascota": ("mascota-hero.jpg", {"en": "Woman hugging her golden retriever outdoors", "es": "Mujer abrazando a su golden retriever al aire libre"}),
+}
+
+def hero_scene(lang, slug, r):
+    photo = PRODUCT_PHOTOS.get(slug)
+    if photo:
+        filename, alts = photo
+        return f"""<div class="hero-scene hero-scene--photo">
+      <div class="hero-scene__blob"></div>
+      <div class="hero__photo-frame"><img src="{r}assets/photos/{filename}" alt="{alts[lang]}" loading="eager"></div>
+    </div>"""
+    return f'<div class="hero-scene">{hero_scene_svg(PRODUCTS[slug]["icon"])}</div>'
+
 def swoosh(center=False):
     cls = "swoosh swoosh--center" if center else "swoosh"
     return f'<svg class="{cls}" viewBox="0 0 84 18" xmlns="http://www.w3.org/2000/svg"><path d="M2 14c10-14 20-14 26-6s16 8 26 0 20-8 28 2"/></svg>'
@@ -210,6 +228,7 @@ def product_card(lang, slug):
 
 def build_home(lang):
     page_key = "index.html"
+    r = rel(depth_for(lang, page_key))
     blocks = ""
     for cat in CATEGORIES:
         cards = "".join(product_card(lang, slug) for slug in cat["slugs"])
@@ -249,15 +268,9 @@ def build_home(lang):
         </div>
       </div>
       <div class="hero__art">
-        <svg viewBox="0 0 480 420" class="hero__wave" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Confialy">
-          <circle cx="240" cy="200" r="168" fill="#DCE9E1"/>
-          <circle cx="240" cy="200" r="120" fill="#FBF6EC"/>
-          <g transform="translate(196,150) scale(1.9)" fill="none" stroke="#405B55" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">{icon('shield-heart')}</g>
-          <g transform="translate(70,60) scale(1.3)" fill="none" stroke="#E3A63C" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">{icon('home')}</g>
-          <g transform="translate(340,50) scale(1.3)" fill="none" stroke="#6C8B7D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">{icon('car')}</g>
-          <g transform="translate(60,300) scale(1.3)" fill="none" stroke="#6C8B7D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">{icon('heart-pulse')}</g>
-          <g transform="translate(345,300) scale(1.3)" fill="none" stroke="#E3A63C" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">{icon('paw')}</g>
-        </svg>
+        <div class="hero__photo-frame">
+          <img src="{r}assets/photos/home-hero.jpg" alt="{"Familia sonriendo junta en casa" if lang=="es" else "Family smiling together at home"}" loading="eager">
+        </div>
       </div>
     </div>
     <div class="hero__divider">
@@ -368,6 +381,7 @@ def build_product(lang, slug):
     prod = PRODUCTS[slug]
     p = prod[lang]
     page_key = f"products/{slug}.html"
+    r = rel(depth_for(lang, page_key))
 
     faqs_html = ""
     faq_entries = []
@@ -415,7 +429,7 @@ def build_product(lang, slug):
           </div>
           <p class="hero__note">{T(lang,'cta_row_note')}</p>
         </div>
-        <div class="hero-scene">{hero_scene_svg(prod['icon'])}</div>
+        {hero_scene(lang, slug, r)}
       </div>
     </div>
   </section>

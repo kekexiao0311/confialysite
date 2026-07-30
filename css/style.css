@@ -201,6 +201,19 @@ ul{ margin: 0; padding: 0; list-style: none; }
 .hero__note{ margin-top: 18px; font-size: 0.9rem; color: var(--text-faint); }
 .hero__art{ position: relative; }
 .hero__wave{ width: 100%; height: auto; display:block; }
+.hero__photo-frame{
+  position: relative;
+  border-radius: var(--radius-l);
+  overflow: hidden;
+  aspect-ratio: 4 / 3.2;
+  box-shadow: 0 30px 60px -28px rgba(23,38,33,0.35);
+}
+.hero__photo-frame img{ width:100%; height:100%; object-fit: cover; display:block; }
+.hero__photo-frame::after{
+  content:"";
+  position:absolute; inset:0; border-radius:inherit;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.28);
+}
 .hero__divider{ display:block; width:100%; line-height:0; margin-top: clamp(36px, 6vw, 64px); }
 .hero__divider svg{ width:100%; height: auto; display:block; }
 
@@ -336,6 +349,12 @@ ul{ margin: 0; padding: 0; list-style: none; }
 /* ---------- product-page hero scene (replaces the small icon box) ---------- */
 .hero-scene{ width: 100%; max-width: 320px; margin: 0 auto; }
 .hero-scene svg{ width: 100%; height: auto; display:block; }
+.hero-scene--photo{ max-width: 360px; position: relative; }
+.hero-scene--photo .hero-scene__blob{
+  position:absolute; inset: 6%;
+  background: var(--sage-tint); border-radius: 50%; z-index:0;
+}
+.hero-scene--photo .hero__photo-frame{ position:relative; z-index:1; aspect-ratio: 1/1.02; box-shadow: 0 24px 48px -24px rgba(23,38,33,0.35); }
 
 /* ---------- personas (icon badge added) ---------- */
 .persona-card__icon{
