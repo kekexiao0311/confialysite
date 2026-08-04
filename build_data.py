@@ -155,8 +155,8 @@ POSITIONING_PILLARS = {
 }
 
 STATS = {
-    "en": [("15", "product lines covered"), ("100%", "independent comparison"), ("2", "site languages: Spanish & English")],
-    "es": [("15", "l\u00edneas de producto"), ("100%", "comparaci\u00f3n independiente"), ("2", "idiomas del sitio: espa\u00f1ol e ingl\u00e9s")],
+    "en": [("15", "product lines covered"), ("100%", "independent comparison"), ("Multiple", "languages spoken by our team")],
+    "es": [("15", "l\u00edneas de producto"), ("100%", "comparaci\u00f3n independiente"), ("Varios", "idiomas en nuestro equipo")],
 }
 
 MESSAGES = {
