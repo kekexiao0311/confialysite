@@ -45,14 +45,14 @@ UI = {
     "en": {
         "nav_home": "Home", "nav_more": "More insurance", "nav_contact": "Contact",
         "nav_cta": "Get a quote", "lang_label": "ES", "lang_href_suffix": "es",
-        "footer_tagline": "We're not the insurance company. We're on your side. Confialy compares real quotes from Spain's leading insurers — independent, no pressure.",
+        "footer_tagline": "We represent the interests of the insured, not the insurance company. Confialy compares real quotes from Spain's leading insurers — independent, no pressure.",
         "footer_company": "Company", "footer_about": "About Confialy", "footer_how": "How it works",
         "footer_contact": "Contact", "footer_rights": "\u00a9 2026 Confialy. All rights reserved.",
         "footer_disclaimer": "Confialy is an insurance comparison service. Policies are underwritten by the selected insurer, not by Confialy.",
         "breadcrumb_home": "Home", "breadcrumb_products": "Products",
-        "eyebrow_why": "Why Confialy", "h2_why_prefix": "We're not the insurance company. We're on your side.",
+        "eyebrow_why": "Why Confialy", "h2_why_prefix": "We represent the interests of the insured, not the insurance company.",
         "h2_why_tpl": "Why Choose Confialy for Your {display}",
-        "why_intro_prefix": "Confialy compares real", "why_intro_suffix": "quotes from Spain's leading insurers \u2014 fast, and without the runaround. You choose. We make sure you understand what you're choosing.",
+        "why_intro_prefix": "Confialy compares real", "why_intro_suffix": "quotes from Spain's leading insurers \u2014 without the runaround. You choose. We make sure you understand what you're choosing.",
         "eyebrow_who": "Who this is for", "h2_who": "Sound familiar?",
         "h2_who_tpl": "Who Is {display} For?",
         "eyebrow_fit": "Is this right for you?", "h2_fit_prefix": "Who", "h2_fit_suffix": "actually fits",
@@ -70,20 +70,20 @@ UI = {
         "products_index_h1": "Compare Every Type of Insurance in Spain",
         "products_index_lede": "Pick a product to see real coverage details, honest \u201cworth checking before you buy\u201d notes, and a straightforward way to ask us for a quote \u2014 no named insurer favored, no fabricated reviews.",
         "scope_flag_label": "Open scope question:",
-        "home_h1": "Compare Insurance Quotes in Spain — Fast and Worry-Free",
-        "home_subline": "We're on your side: real quotes from Spain's leading insurers, fast and worry-free — with support before and after you buy.",
+        "home_h1": "Compare Insurance Quotes in Spain — Clearly and Without Pressure",
+        "home_subline": "We're on your side: real quotes from Spain's leading insurers, explained clearly — with support before and after you buy.",
     },
     "es": {
         "nav_home": "Inicio", "nav_more": "M\u00e1s seguros", "nav_contact": "Contacto",
         "nav_cta": "Pedir presupuesto", "lang_label": "EN", "lang_href_suffix": "en",
-        "footer_tagline": "No somos la aseguradora. Estamos de tu lado. Confialy compara presupuestos reales de las principales aseguradoras de Espa\u00f1a \u2014 independiente, sin presi\u00f3n.",
+        "footer_tagline": "Representamos los intereses del asegurado, no de la aseguradora. Confialy compara presupuestos reales de las principales aseguradoras de Espa\u00f1a \u2014 independiente, sin presi\u00f3n.",
         "footer_company": "Empresa", "footer_about": "Sobre Confialy", "footer_how": "C\u00f3mo funciona",
         "footer_contact": "Contacto", "footer_rights": "\u00a9 2026 Confialy. Todos los derechos reservados.",
         "footer_disclaimer": "Confialy es un servicio de comparaci\u00f3n de seguros. Las p\u00f3lizas son suscritas por la aseguradora elegida, no por Confialy.",
         "breadcrumb_home": "Inicio", "breadcrumb_products": "Seguros",
-        "eyebrow_why": "Por qu\u00e9 Confialy", "h2_why_prefix": "No somos la aseguradora. Estamos de tu lado.",
+        "eyebrow_why": "Por qu\u00e9 Confialy", "h2_why_prefix": "Representamos los intereses del asegurado, no de la aseguradora.",
         "h2_why_tpl": "Por Qu\u00e9 Elegir Confialy para tu {display}",
-        "why_intro_prefix": "Confialy compara presupuestos reales de", "why_intro_suffix": "de las principales aseguradoras de Espa\u00f1a \u2014 r\u00e1pido, y sin vueltas. T\u00fa eliges. Nosotros nos aseguramos de que entiendas lo que est\u00e1s eligiendo.",
+        "why_intro_prefix": "Confialy compara presupuestos reales de", "why_intro_suffix": "de las principales aseguradoras de Espa\u00f1a \u2014 sin vueltas. T\u00fa eliges. Nosotros nos aseguramos de que entiendas lo que est\u00e1s eligiendo.",
         "eyebrow_who": "Para qui\u00e9n es esto", "h2_who": "\u00bfTe suena?",
         "h2_who_tpl": "\u00bfPara Qui\u00e9n Es el {display}?",
         "eyebrow_fit": "\u00bfEs para ti?", "h2_fit_prefix": "A qui\u00e9n le encaja", "h2_fit_suffix": "",
@@ -101,8 +101,8 @@ UI = {
         "products_index_h1": "Compara Todos los Tipos de Seguro en Espa\u00f1a",
         "products_index_lede": "Elige un producto para ver la cobertura real, notas honestas de \u00abqu\u00e9 conviene revisar antes de comprar\u00bb, y una forma sencilla de pedirnos un presupuesto \u2014 sin favorecer a ninguna aseguradora, sin rese\u00f1as inventadas.",
         "scope_flag_label": "Pregunta de alcance pendiente:",
-        "home_h1": "Compara Seguros en Espa\u00f1a \u2014 R\u00e1pido y Sin Preocupaciones",
-        "home_subline": "Estamos de tu lado: presupuestos reales de las principales aseguradoras de Espa\u00f1a, r\u00e1pido y sin preocupaciones \u2014 te acompa\u00f1amos antes y despu\u00e9s de contratar.",
+        "home_h1": "Compara Seguros en Espa\u00f1a \u2014 Con Claridad y Sin Presi\u00f3n",
+        "home_subline": "Estamos de tu lado: presupuestos reales de las principales aseguradoras de Espa\u00f1a, explicados con claridad \u2014 te acompa\u00f1amos antes y despu\u00e9s de contratar.",
     },
 }
 
@@ -129,14 +129,14 @@ HOW_IT_WORKS = {
 TRUST_BAR = {
     "en": [
         ("layers", "Real quotes, not one pitch", "Spain's leading insurers, side by side."),
-        ("scale", "Quotes back fast", "Days, not weeks of back-and-forth."),
-        ("globe", "Spanish or English", "From a real person, not a script."),
+        ("scale", "No pressure, ever", "Compare and decide on your own timeline."),
+        ("globe", "Multiple languages", "From a real person, not a script."),
         ("headset", "We stay after the sale", "Follow-up to confirm you're covered."),
     ],
     "es": [
         ("layers", "Presupuestos reales, no un solo intento", "Las principales aseguradoras de Espa\u00f1a, una junto a otra."),
-        ("scale", "Presupuestos r\u00e1pidos", "D\u00edas, no semanas de idas y vueltas."),
-        ("globe", "En espa\u00f1ol o ingl\u00e9s", "De una persona real, no un gui\u00f3n."),
+        ("scale", "Sin presi\u00f3n, nunca", "Compara y decide a tu propio ritmo."),
+        ("globe", "Varios idiomas", "De una persona real, no un gui\u00f3n."),
         ("headset", "Seguimos despu\u00e9s de la venta", "Confirmamos que est\u00e9s bien cubierto."),
     ],
 }
@@ -144,19 +144,19 @@ TRUST_BAR = {
 POSITIONING_PILLARS = {
     "en": [
         ("layers", "Compare, don't guess", "Real quotes from multiple insurers, side by side."),
-        ("scale", "Fast, without the runaround", "Real quotes back quickly, explained in plain language."),
+        ("scale", "Clear, not pushy", "Real quotes explained in plain language, so you know exactly what you're choosing."),
         ("headset", "Support that stays", "We follow up after you buy, not just before."),
     ],
     "es": [
         ("layers", "Compara, no adivines", "Presupuestos reales de varias aseguradoras, uno junto a otro."),
-        ("scale", "R\u00e1pido, sin vueltas", "Presupuestos reales en poco tiempo, explicados con claridad."),
+        ("scale", "Claro, sin presionar", "Presupuestos reales explicados en lenguaje claro, para que sepas exactamente qu\u00e9 eliges."),
         ("headset", "Un acompa\u00f1amiento que no desaparece", "Seguimos en contacto despu\u00e9s de la compra, no solo antes."),
     ],
 }
 
 STATS = {
-    "en": [("15", "product lines covered"), ("100%", "independent comparison"), ("2", "languages: Spanish & English")],
-    "es": [("15", "l\u00edneas de producto"), ("100%", "comparaci\u00f3n independiente"), ("2", "idiomas: espa\u00f1ol e ingl\u00e9s")],
+    "en": [("15", "product lines covered"), ("100%", "independent comparison"), ("2", "site languages: Spanish & English")],
+    "es": [("15", "l\u00edneas de producto"), ("100%", "comparaci\u00f3n independiente"), ("2", "idiomas del sitio: espa\u00f1ol e ingl\u00e9s")],
 }
 
 MESSAGES = {

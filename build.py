@@ -535,9 +535,9 @@ def build_about(lang):
         title = "Sobre Confialy | Comparación Independiente de Seguros en España"
         desc = "Confialy es un bróker y comparador de seguros independiente en España. Descubre a quién comparamos, cómo nos pagan, y por qué no publicamos reseñas falsas."
         body = """
-      <h1>No somos la aseguradora. Estamos de tu lado.</h1>
+      <h1>Representamos los intereses del asegurado, no de la aseguradora.</h1>
       {swoosh}
-      <p class="hero__lede">Confialy es una plataforma independiente de comparación y contratación de seguros para personas que viven en España — españoles y residentes extranjeros por igual. Comparamos presupuestos reales en 15 líneas de producto, desde salud y hogar hasta defensa jurídica y ciberriesgos, rápido y sin complicaciones, para que decidas con tranquilidad.</p>
+      <p class="hero__lede">Confialy es una plataforma independiente de comparación y contratación de seguros para personas que viven en España — españoles y residentes extranjeros por igual. Comparamos presupuestos reales en 15 líneas de producto, desde salud y hogar hasta defensa jurídica y ciberriesgos, con claridad y sin complicaciones, para que decidas con tranquilidad.</p>
 
       <h2 style="margin-top:48px;">Por qué existimos</h2>
       <p>Comparar seguros en España suele significar cinco llamadas, cinco explicaciones distintas, y una póliza llena de jerga que se supone que debes confiar sin más. Creamos Confialy para que sea un formulario, presupuestos reales uno junto a otro, y respuestas en lenguaje claro sobre lo que realmente estás comprando — incluyendo lo que un plan NO cubre, no solo lo que sí.</p>
@@ -556,7 +556,7 @@ def build_about(lang):
 
       <div class="cta-band" style="margin-top:48px;">
         <h3>¿Dudas antes de comparar?</h3>
-        <p>Habla con una persona real en español o inglés — sin presión, sin obligación de compra.</p>
+        <p>Habla con una persona real en varios idiomas — sin presión, sin obligación de compra.</p>
         <div class="btn-row"><a class="btn btn--on-dark" href="contact.html">Contáctanos</a></div>
       </div>
 """
@@ -564,9 +564,9 @@ def build_about(lang):
         title = "About Confialy | Independent Insurance Comparison in Spain"
         desc = "Confialy is an independent insurance broker and comparison platform for Spain. Learn who we compare for, how we're paid, and why we don't publish fake reviews."
         body = """
-      <h1>We're not the insurance company. We're on your side.</h1>
+      <h1>We represent the interests of the insured, not the insurance company.</h1>
       {swoosh}
-      <p class="hero__lede">Confialy is an independent insurance comparison and purchase platform for people living in Spain — Spanish locals and foreign residents alike. We compare real quotes across 15 product lines, from health and home to legal defense and cyber risk, fast and without the runaround, so you can decide with peace of mind.</p>
+      <p class="hero__lede">Confialy is an independent insurance comparison and purchase platform for people living in Spain — Spanish locals and foreign residents alike. We compare real quotes across 15 product lines, from health and home to legal defense and cyber risk, clearly and without the runaround, so you can decide with peace of mind.</p>
 
       <h2 style="margin-top:48px;">Why we exist</h2>
       <p>Comparing insurance in Spain usually means five phone calls, five different explanations, and a policy full of jargon you're expected to just trust. We built Confialy so it's one form, real quotes side by side, and plain-language answers about what you're actually buying — including what a plan doesn't cover, not just what it does.</p>
@@ -585,7 +585,7 @@ def build_about(lang):
 
       <div class="cta-band" style="margin-top:48px;">
         <h3>Questions before you compare?</h3>
-        <p>Reach a real person in Spanish or English — no pressure, no obligation to buy.</p>
+        <p>Reach a real person in multiple languages — no pressure, no obligation to buy.</p>
         <div class="btn-row"><a class="btn btn--on-dark" href="contact.html">Contact us</a></div>
       </div>
 """
@@ -684,12 +684,12 @@ def build_contact(lang):
     m = MESSAGES[lang]
     if lang == "es":
         title = "Contacta con Confialy | Habla con una Persona Real sobre tu Seguro"
-        desc = "¿Tienes una pregunta antes de comparar o comprar? Contacta con Confialy en español o inglés — sin presión, sin obligación de compra."
+        desc = "¿Tienes una pregunta antes de comparar o comprar? Contacta con Confialy en varios idiomas — sin presión, sin obligación de compra."
         h1 = "Habla con una Persona Real, no con un Guión de Chatbot"
         lede = "¿Pregunta sobre un presupuesto, un producto que no entiendes del todo, o algo completamente distinto? Escríbenos — no hay obligación de comprar nada."
     else:
         title = "Contact Confialy | Talk to a Real Person About Your Insurance"
-        desc = "Have a question before you compare or buy? Contact Confialy in Spanish or English — no pressure, no obligation to buy."
+        desc = "Have a question before you compare or buy? Contact Confialy in multiple languages — no pressure, no obligation to buy."
         h1 = "Talk to a Real Person, Not a Chatbot Script"
         lede = "Question about a quote, a product you don't fully understand, or something else entirely? Send us a message — there's no obligation to buy anything."
 
@@ -707,7 +707,7 @@ def build_contact(lang):
       <div class="contact-layout" style="margin-top:36px;">
         <div class="contact-info">
           <h3>{"Habla con nosotros" if lang=="es" else "Get in touch"}</h3>
-          <p>{"Respondemos en español o inglés, normalmente en un día laborable." if lang=="es" else "We reply in Spanish or English, usually within one business day."}</p>
+          <p>{"Respondemos en varios idiomas, normalmente en un día laborable." if lang=="es" else "We reply in multiple languages, usually within one business day."}</p>
           <div class="contact-info__item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
             <div><strong>{"Correo" if lang=="es" else "Email"}</strong><br><a href="mailto:contact@confialy.com">contact@confialy.com</a></div>
